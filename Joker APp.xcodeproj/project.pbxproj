@@ -7,18 +7,49 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		EE49A2B62BC032CA007E15E4 /* PuzzleGameScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE49A2B52BC032CA007E15E4 /* PuzzleGameScene.swift */; };
+		EE49A2B92BC032EF007E15E4 /* PuzzleGameView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE49A2B82BC032EF007E15E4 /* PuzzleGameView.swift */; };
+		EE49A2BC2BC03471007E15E4 /* Item.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE49A2BB2BC03471007E15E4 /* Item.swift */; };
+		EE49A2C02BC041EC007E15E4 /* Explosion.sks in Resources */ = {isa = PBXBuildFile; fileRef = EE49A2BE2BC041EC007E15E4 /* Explosion.sks */; };
+		EE49A2C12BC041EC007E15E4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EE49A2BF2BC041EC007E15E4 /* Assets.xcassets */; };
+		EE49A2C32BC050AC007E15E4 /* LevelItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE49A2C22BC050AC007E15E4 /* LevelItem.swift */; };
+		EE49A2C52BC185F3007E15E4 /* GameFInishedView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE49A2C42BC185F3007E15E4 /* GameFInishedView.swift */; };
+		EE49A2C72BC1950D007E15E4 /* GameData.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE49A2C62BC1950D007E15E4 /* GameData.swift */; };
 		EE9F8E1D2BB8493E00FDA6E6 /* Joker_APpApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE9F8E1C2BB8493E00FDA6E6 /* Joker_APpApp.swift */; };
 		EE9F8E1F2BB8493E00FDA6E6 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE9F8E1E2BB8493E00FDA6E6 /* ContentView.swift */; };
 		EE9F8E212BB8494000FDA6E6 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EE9F8E202BB8494000FDA6E6 /* Assets.xcassets */; };
 		EE9F8E242BB8494000FDA6E6 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EE9F8E232BB8494000FDA6E6 /* Preview Assets.xcassets */; };
+		EE9F8E2F2BBC3C0F00FDA6E6 /* ChooseView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE9F8E2E2BBC3C0F00FDA6E6 /* ChooseView.swift */; };
+		EE9F8E312BBC3CF200FDA6E6 /* RewardsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE9F8E302BBC3CF200FDA6E6 /* RewardsView.swift */; };
+		EE9F8E342BBC3D0600FDA6E6 /* InfoView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE9F8E332BBC3D0600FDA6E6 /* InfoView.swift */; };
+		EE9F8E3A2BBC404E00FDA6E6 /* lilit.ttf in Resources */ = {isa = PBXBuildFile; fileRef = EE9F8E392BBC404E00FDA6E6 /* lilit.ttf */; };
+		EE9F8E3D2BBC428600FDA6E6 /* LevelsGameView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE9F8E3C2BBC428600FDA6E6 /* LevelsGameView.swift */; };
+		EE9F8E3F2BBC43BE00FDA6E6 /* FontName.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE9F8E3E2BBC43BE00FDA6E6 /* FontName.swift */; };
+		EE9F8E422BBC453200FDA6E6 /* RewardModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE9F8E412BBC453200FDA6E6 /* RewardModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		EE49A2B52BC032CA007E15E4 /* PuzzleGameScene.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PuzzleGameScene.swift; sourceTree = "<group>"; };
+		EE49A2B82BC032EF007E15E4 /* PuzzleGameView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PuzzleGameView.swift; sourceTree = "<group>"; };
+		EE49A2BB2BC03471007E15E4 /* Item.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Item.swift; sourceTree = "<group>"; };
+		EE49A2BE2BC041EC007E15E4 /* Explosion.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = Explosion.sks; sourceTree = "<group>"; };
+		EE49A2BF2BC041EC007E15E4 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		EE49A2C22BC050AC007E15E4 /* LevelItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LevelItem.swift; sourceTree = "<group>"; };
+		EE49A2C42BC185F3007E15E4 /* GameFInishedView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameFInishedView.swift; sourceTree = "<group>"; };
+		EE49A2C62BC1950D007E15E4 /* GameData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameData.swift; sourceTree = "<group>"; };
 		EE9F8E192BB8493E00FDA6E6 /* Joker APp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Joker APp.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		EE9F8E1C2BB8493E00FDA6E6 /* Joker_APpApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Joker_APpApp.swift; sourceTree = "<group>"; };
 		EE9F8E1E2BB8493E00FDA6E6 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		EE9F8E202BB8494000FDA6E6 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		EE9F8E232BB8494000FDA6E6 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		EE9F8E2E2BBC3C0F00FDA6E6 /* ChooseView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChooseView.swift; sourceTree = "<group>"; };
+		EE9F8E302BBC3CF200FDA6E6 /* RewardsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RewardsView.swift; sourceTree = "<group>"; };
+		EE9F8E332BBC3D0600FDA6E6 /* InfoView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InfoView.swift; sourceTree = "<group>"; };
+		EE9F8E382BBC3F4C00FDA6E6 /* Joker-APp-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = "Joker-APp-Info.plist"; sourceTree = SOURCE_ROOT; };
+		EE9F8E392BBC404E00FDA6E6 /* lilit.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = lilit.ttf; path = ../../../../Downloads/Lilita_One/lilit.ttf; sourceTree = "<group>"; };
+		EE9F8E3C2BBC428600FDA6E6 /* LevelsGameView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LevelsGameView.swift; sourceTree = "<group>"; };
+		EE9F8E3E2BBC43BE00FDA6E6 /* FontName.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FontName.swift; sourceTree = "<group>"; };
+		EE9F8E412BBC453200FDA6E6 /* RewardModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RewardModel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -32,6 +63,41 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		EE49A2B42BC031C0007E15E4 /* Game */ = {
+			isa = PBXGroup;
+			children = (
+				EE49A2B52BC032CA007E15E4 /* PuzzleGameScene.swift */,
+			);
+			path = Game;
+			sourceTree = "<group>";
+		};
+		EE49A2B72BC032DA007E15E4 /* PuzzleGameView */ = {
+			isa = PBXGroup;
+			children = (
+				EE49A2B82BC032EF007E15E4 /* PuzzleGameView.swift */,
+				EE49A2C42BC185F3007E15E4 /* GameFInishedView.swift */,
+			);
+			path = PuzzleGameView;
+			sourceTree = "<group>";
+		};
+		EE49A2BA2BC03462007E15E4 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				EE49A2BB2BC03471007E15E4 /* Item.swift */,
+				EE49A2C22BC050AC007E15E4 /* LevelItem.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		EE49A2BD2BC041D7007E15E4 /* Particles */ = {
+			isa = PBXGroup;
+			children = (
+				EE49A2BE2BC041EC007E15E4 /* Explosion.sks */,
+				EE49A2BF2BC041EC007E15E4 /* Assets.xcassets */,
+			);
+			path = Particles;
+			sourceTree = "<group>";
+		};
 		EE9F8E102BB8493E00FDA6E6 = {
 			isa = PBXGroup;
 			children = (
@@ -51,10 +117,18 @@
 		EE9F8E1B2BB8493E00FDA6E6 /* Joker APp */ = {
 			isa = PBXGroup;
 			children = (
+				EE49A2BD2BC041D7007E15E4 /* Particles */,
+				EE9F8E402BBC452600FDA6E6 /* Model */,
+				EE9F8E382BBC3F4C00FDA6E6 /* Joker-APp-Info.plist */,
+				EE9F8E392BBC404E00FDA6E6 /* lilit.ttf */,
+				EE9F8E352BBC3F1600FDA6E6 /* Fonts */,
+				EE9F8E2B2BB8494F00FDA6E6 /* Scenes */,
+				EE9F8E2A2BB8494800FDA6E6 /* Views */,
 				EE9F8E1C2BB8493E00FDA6E6 /* Joker_APpApp.swift */,
 				EE9F8E1E2BB8493E00FDA6E6 /* ContentView.swift */,
 				EE9F8E202BB8494000FDA6E6 /* Assets.xcassets */,
 				EE9F8E222BB8494000FDA6E6 /* Preview Content */,
+				EE49A2C62BC1950D007E15E4 /* GameData.swift */,
 			);
 			path = "Joker APp";
 			sourceTree = "<group>";
@@ -65,6 +139,75 @@
 				EE9F8E232BB8494000FDA6E6 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		EE9F8E2A2BB8494800FDA6E6 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				EE49A2B72BC032DA007E15E4 /* PuzzleGameView */,
+				EE9F8E3B2BBC427900FDA6E6 /* LevelsGame */,
+				EE9F8E322BBC3CFB00FDA6E6 /* InfoView */,
+				EE9F8E2D2BBC3A5900FDA6E6 /* RewardsView */,
+				EE9F8E2C2BBC3A4000FDA6E6 /* ChooseView */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		EE9F8E2B2BB8494F00FDA6E6 /* Scenes */ = {
+			isa = PBXGroup;
+			children = (
+				EE49A2BA2BC03462007E15E4 /* Models */,
+				EE49A2B42BC031C0007E15E4 /* Game */,
+			);
+			path = Scenes;
+			sourceTree = "<group>";
+		};
+		EE9F8E2C2BBC3A4000FDA6E6 /* ChooseView */ = {
+			isa = PBXGroup;
+			children = (
+				EE9F8E2E2BBC3C0F00FDA6E6 /* ChooseView.swift */,
+			);
+			path = ChooseView;
+			sourceTree = "<group>";
+		};
+		EE9F8E2D2BBC3A5900FDA6E6 /* RewardsView */ = {
+			isa = PBXGroup;
+			children = (
+				EE9F8E302BBC3CF200FDA6E6 /* RewardsView.swift */,
+			);
+			path = RewardsView;
+			sourceTree = "<group>";
+		};
+		EE9F8E322BBC3CFB00FDA6E6 /* InfoView */ = {
+			isa = PBXGroup;
+			children = (
+				EE9F8E332BBC3D0600FDA6E6 /* InfoView.swift */,
+			);
+			path = InfoView;
+			sourceTree = "<group>";
+		};
+		EE9F8E352BBC3F1600FDA6E6 /* Fonts */ = {
+			isa = PBXGroup;
+			children = (
+				EE9F8E3E2BBC43BE00FDA6E6 /* FontName.swift */,
+			);
+			path = Fonts;
+			sourceTree = "<group>";
+		};
+		EE9F8E3B2BBC427900FDA6E6 /* LevelsGame */ = {
+			isa = PBXGroup;
+			children = (
+				EE9F8E3C2BBC428600FDA6E6 /* LevelsGameView.swift */,
+			);
+			path = LevelsGame;
+			sourceTree = "<group>";
+		};
+		EE9F8E402BBC452600FDA6E6 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				EE9F8E412BBC453200FDA6E6 /* RewardModel.swift */,
+			);
+			path = Model;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -126,7 +269,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				EE9F8E242BB8494000FDA6E6 /* Preview Assets.xcassets in Resources */,
+				EE49A2C02BC041EC007E15E4 /* Explosion.sks in Resources */,
 				EE9F8E212BB8494000FDA6E6 /* Assets.xcassets in Resources */,
+				EE9F8E3A2BBC404E00FDA6E6 /* lilit.ttf in Resources */,
+				EE49A2C12BC041EC007E15E4 /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -137,8 +283,20 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				EE49A2B92BC032EF007E15E4 /* PuzzleGameView.swift in Sources */,
+				EE49A2C32BC050AC007E15E4 /* LevelItem.swift in Sources */,
 				EE9F8E1F2BB8493E00FDA6E6 /* ContentView.swift in Sources */,
+				EE9F8E2F2BBC3C0F00FDA6E6 /* ChooseView.swift in Sources */,
+				EE9F8E422BBC453200FDA6E6 /* RewardModel.swift in Sources */,
 				EE9F8E1D2BB8493E00FDA6E6 /* Joker_APpApp.swift in Sources */,
+				EE9F8E3D2BBC428600FDA6E6 /* LevelsGameView.swift in Sources */,
+				EE49A2BC2BC03471007E15E4 /* Item.swift in Sources */,
+				EE49A2C52BC185F3007E15E4 /* GameFInishedView.swift in Sources */,
+				EE9F8E3F2BBC43BE00FDA6E6 /* FontName.swift in Sources */,
+				EE9F8E342BBC3D0600FDA6E6 /* InfoView.swift in Sources */,
+				EE49A2C72BC1950D007E15E4 /* GameData.swift in Sources */,
+				EE49A2B62BC032CA007E15E4 /* PuzzleGameScene.swift in Sources */,
+				EE9F8E312BBC3CF200FDA6E6 /* RewardsView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -275,11 +433,13 @@
 				DEVELOPMENT_TEAM = 4RSA42DBKQ;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "Joker-APp-Info.plist";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -287,6 +447,9 @@
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = "com.whackplikogame.Joker-APp";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -304,11 +467,13 @@
 				DEVELOPMENT_TEAM = 4RSA42DBKQ;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "Joker-APp-Info.plist";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -316,6 +481,9 @@
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = "com.whackplikogame.Joker-APp";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
